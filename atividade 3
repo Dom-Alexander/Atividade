@@ -1,0 +1,25 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/12/2022
+Var
+// Seção de Declarações das variáveis 
+id : real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval ("qual sua idade ?")
+leia(id)
+se id < 18 então
+limpatela
+escreval (" faltam" , 18-id ,  " anos para você poder se alistar ")
+senão
+escreval ("você pode se alistar")
+se id > 18 entao
+escreval ("passou",id-18, " anos para você se alistar")
+fimse
+fimse
+
+Fimalgoritmo
