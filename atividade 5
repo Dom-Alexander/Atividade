@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 05/12/2022
+Var
+// Seção de Declarações das variáveis
+val: real
+km1: real
+inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+escreval (" fale quantos km você quer andar")
+leia(Km1)
+se km1 > 200 então
+escreval  ("valor da passagem é ", km*0.50, "R$")
+senao
+escreval ("O Valor da passagem é de")
+escreval (km1*0.45,"R$")
+
+
+fimalgoritmo
